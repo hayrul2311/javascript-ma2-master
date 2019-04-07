@@ -2,16 +2,37 @@
 
 1. What is a function literal?
 
+ Literals are expressions of values. such as function(){alert(hi);} .
+ But if we give a name to function smilar to its values then it is not Literal
+ such as function(hi){alert(hi)} . Because the latter expresses not only a
+ value, but a reference.
+
 2. What is the constructor?
+
+The constructor method is a special method for creating and initializing an
+object created within a class. There cant be more than 1 constructor in a
+class.
 
 3. What does the return statement do?
 
+Return statement makes your function stop executing and returns a value
+to its function caller. It can be used to end a function, return a function
+from within a function, interrupt a loop and stop execution midway through.
+
 4. What will be written to the console from this function:
+
 		function myFunction(){
 			  return console.log('inside my function');
 			  console.log('My name is Andy');
 		}
 		myFunction();
 
+It will be written in console "inside mu function".
 
-5. Briefly describe scope in JavaScript.
+5. Briefly describe cope in JavaScript.
+
+Scoping is determining where variables, functions, and objects are accessible in your code during runtime.
+The scope of a variable is controlled by the location of the variable declaration. There 2 scopes in javascript which is
+global scope and local scope. A variable is in the Global scope if it’s defined outside of a function.
+Variables declared within a function are in the local scope.
+ Local scope is also called function scope because local scope is created by functions in Javascript.
